@@ -1,0 +1,11 @@
+com/mycompany/csa_mock/dao/ModuleDAO.class
+com/mycompany/csa_mock/Model/Student.class
+com/mycompany/csa_mock/resources/JavaEE8Resource.class
+com/mycompany/csa_mock/resource/StudentResource.class
+com/mycompany/csa_mock/resource/TeacherResource.class
+com/mycompany/csa_mock/Model/Teacher.class
+com/mycompany/csa_mock/Model/Module.class
+com/mycompany/csa_mock/resource/ModuleResource.class
+com/mycompany/csa_mock/dao/StudentDAO.class
+com/mycompany/csa_mock/dao/TeacherDAO.class
+com/mycompany/csa_mock/JAXRSConfiguration.class
