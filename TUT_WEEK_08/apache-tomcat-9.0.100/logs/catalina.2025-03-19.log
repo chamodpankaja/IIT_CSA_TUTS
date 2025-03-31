@@ -1,0 +1,371 @@
+19-Mar-2025 11:25:27.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:25:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 11:25:27.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:25:27.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 11:25:27.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 11:25:27.244 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:25:27.261 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [260] milliseconds
+19-Mar-2025 11:25:27.276 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 11:25:27.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 11:25:27.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 11:25:27.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [110] ms
+19-Mar-2025 11:25:27.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 11:25:27.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [19] ms
+19-Mar-2025 11:25:27.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 11:25:27.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [87] ms
+19-Mar-2025 11:25:27.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 11:25:27.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [7] ms
+19-Mar-2025 11:25:27.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 11:25:27.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [7] ms
+19-Mar-2025 11:25:27.511 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:25:27.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [254] milliseconds
+19-Mar-2025 11:27:14.383 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:27:14.384 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:27:14.623 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:27:14.767 WARNING [http-nio-8080-exec-7] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:14.929 WARNING [http-nio-8080-exec-7] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:14.952 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [569] ms
+19-Mar-2025 11:27:14.955 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 11:27:25.823 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 11:27:25.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:27:25.826 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 11:27:25.849 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:27:25.852 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:27:33.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:27:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:27:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 11:27:33.785 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 11:27:33.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:27:33.936 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [236] milliseconds
+19-Mar-2025 11:27:33.951 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 11:27:33.951 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 11:27:33.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:27:33.958 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:27:34.265 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:27:34.428 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:34.610 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:34.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [683] ms
+19-Mar-2025 11:27:34.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 11:27:34.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [10] ms
+19-Mar-2025 11:27:34.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 11:27:34.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [13] ms
+19-Mar-2025 11:27:34.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 11:27:34.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [70] ms
+19-Mar-2025 11:27:34.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 11:27:34.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [6] ms
+19-Mar-2025 11:27:34.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 11:27:34.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [8] ms
+19-Mar-2025 11:27:34.748 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:27:34.752 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [815] milliseconds
+19-Mar-2025 11:27:42.801 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mavenproject1]
+19-Mar-2025 11:27:42.829 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:27:42.830 WARNING [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:27:43.019 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:27:43.141 WARNING [http-nio-8080-exec-6] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:43.277 WARNING [http-nio-8080-exec-6] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:27:43.296 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [467] ms
+19-Mar-2025 11:27:43.299 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 11:29:15.930 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 11:29:15.930 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:29:15.933 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 11:29:15.948 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:29:15.957 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:40:18.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:40:18.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:40:18.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:40:18.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 11:40:18.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 11:40:18.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:40:18.320 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [262] milliseconds
+19-Mar-2025 11:40:18.338 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 11:40:18.338 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 11:40:18.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:40:18.346 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:40:18.709 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:40:18.884 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:40:19.049 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:40:19.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [736] ms
+19-Mar-2025 11:40:19.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 11:40:19.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [10] ms
+19-Mar-2025 11:40:19.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 11:40:19.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [13] ms
+19-Mar-2025 11:40:19.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 11:40:19.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [73] ms
+19-Mar-2025 11:40:19.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 11:40:19.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [7] ms
+19-Mar-2025 11:40:19.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 11:40:19.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [9] ms
+19-Mar-2025 11:40:19.192 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:40:19.196 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [875] milliseconds
+19-Mar-2025 11:40:26.502 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mavenproject1]
+19-Mar-2025 11:40:26.535 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:40:26.536 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:40:26.736 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:40:26.861 WARNING [http-nio-8080-exec-7] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:40:26.999 WARNING [http-nio-8080-exec-7] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:40:27.015 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [480] ms
+19-Mar-2025 11:40:27.018 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 11:41:50.694 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 11:41:50.695 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:41:50.698 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 11:41:50.717 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:41:50.722 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:58:55.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:58:55.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 11:58:55.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:58:55.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 11:58:55.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 11:58:55.182 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 11:58:55.330 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:58:55.343 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [255] milliseconds
+19-Mar-2025 11:58:55.360 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 11:58:55.360 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 11:58:55.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:58:55.367 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:58:55.723 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:58:55.915 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:58:56.088 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:58:56.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [750] ms
+19-Mar-2025 11:58:56.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 11:58:56.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [10] ms
+19-Mar-2025 11:58:56.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 11:58:56.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [17] ms
+19-Mar-2025 11:58:56.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 11:58:56.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [65] ms
+19-Mar-2025 11:58:56.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 11:58:56.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [6] ms
+19-Mar-2025 11:58:56.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 11:58:56.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [7] ms
+19-Mar-2025 11:58:56.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 11:58:56.225 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [880] milliseconds
+19-Mar-2025 11:59:03.334 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mavenproject1]
+19-Mar-2025 11:59:03.360 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 11:59:03.361 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 11:59:03.560 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 11:59:03.685 WARNING [http-nio-8080-exec-5] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:59:03.822 WARNING [http-nio-8080-exec-5] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 11:59:03.840 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [480] ms
+19-Mar-2025 11:59:03.843 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 12:02:47.662 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 12:02:47.663 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:02:47.665 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 12:02:47.679 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:02:47.691 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:02:54.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 12:02:54.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 12:02:54.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:02:54.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:02:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:02:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 12:02:54.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 12:02:54.832 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:02:54.844 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [239] milliseconds
+19-Mar-2025 12:02:54.861 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 12:02:54.861 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 12:02:54.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 12:02:54.869 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 12:02:55.221 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 12:02:55.409 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:02:55.586 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:02:55.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [746] ms
+19-Mar-2025 12:02:55.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 12:02:55.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [9] ms
+19-Mar-2025 12:02:55.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 12:02:55.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [13] ms
+19-Mar-2025 12:02:55.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 12:02:55.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [73] ms
+19-Mar-2025 12:02:55.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 12:02:55.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [7] ms
+19-Mar-2025 12:02:55.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 12:02:55.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [7] ms
+19-Mar-2025 12:02:55.723 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:02:55.727 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [882] milliseconds
+19-Mar-2025 12:03:00.503 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mavenproject1]
+19-Mar-2025 12:03:00.515 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 12:03:00.516 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 12:03:00.721 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 12:03:00.844 WARNING [http-nio-8080-exec-4] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:03:00.982 WARNING [http-nio-8080-exec-4] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:03:00.998 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [483] ms
+19-Mar-2025 12:03:01.002 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 12:03:31.941 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 12:03:31.941 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:03:31.944 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 12:03:31.963 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:03:31.968 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:11:35.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.1
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:11:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/logging.properties
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|chamods-MacBook-Pro.local
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2025 12:11:35.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:11:35.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100
+19-Mar-2025 12:11:35.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/temp
+19-Mar-2025 12:11:35.835 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chamodpankaja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Mar-2025 12:11:35.981 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:11:35.995 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [255] milliseconds
+19-Mar-2025 12:11:36.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2025 12:11:36.014 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+19-Mar-2025 12:11:36.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 12:11:36.024 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 12:11:36.383 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 12:11:36.573 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:11:36.751 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:11:36.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [758] ms
+19-Mar-2025 12:11:36.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs]
+19-Mar-2025 12:11:36.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/docs] has finished in [15] ms
+19-Mar-2025 12:11:36.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager]
+19-Mar-2025 12:11:36.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/manager] has finished in [13] ms
+19-Mar-2025 12:11:36.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples]
+19-Mar-2025 12:11:36.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/examples] has finished in [70] ms
+19-Mar-2025 12:11:36.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT]
+19-Mar-2025 12:11:36.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/ROOT] has finished in [6] ms
+19-Mar-2025 12:11:36.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager]
+19-Mar-2025 12:11:36.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/webapps/host-manager] has finished in [8] ms
+19-Mar-2025 12:11:36.891 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:11:36.895 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [898] milliseconds
+19-Mar-2025 12:11:40.882 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mavenproject1]
+19-Mar-2025 12:11:40.908 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml]
+19-Mar-2025 12:11:40.909 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+19-Mar-2025 12:11:41.114 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2025 12:11:41.243 WARNING [http-nio-8080-exec-10] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:11:41.383 WARNING [http-nio-8080-exec-10] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+19-Mar-2025 12:11:41.400 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/chamodpankaja/Documents/IIT/L5/CSA/week 7/apache-tomcat-9.0.100/conf/Catalina/localhost/mavenproject1.xml] has finished in [491] ms
+19-Mar-2025 12:11:41.403 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]] after start() had already been called. The second call will be ignored.
+19-Mar-2025 12:11:48.052 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2025 12:11:48.053 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:11:48.055 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2025 12:11:48.070 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2025 12:11:48.080 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
