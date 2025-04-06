@@ -111,8 +111,7 @@ public class SimpleHttpServer {
                 sendResponse(exchange, "Not found", 404);
                 return;
             }
-
-
+           
             /*
              * ---------------
              * check if the request method is "GET"

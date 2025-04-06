@@ -168,8 +168,8 @@ public class ClientServer{
              * ----------------
             */
            
-              public ClientHandler(Socket clienSocket) {
-                  this.clientSocket = clienSocket;
+              public ClientHandler(Socket clientSocket) {
+                  this.clientSocket = clientSocket;
               }
 
 
@@ -393,13 +393,14 @@ public class ClientServer{
                 */
                 
                     String userInput;
-
+                    
+                    
                     /*
                      * ----------------
                      * Please send the user's input to the server using the PrintWriter.
                      * ----------------
                     */
-                    
+                       System.out.println("enter msg to send: ");
                     while((userInput = stdIn.readLine()) != null){
                     
                         out.println(userInput);
