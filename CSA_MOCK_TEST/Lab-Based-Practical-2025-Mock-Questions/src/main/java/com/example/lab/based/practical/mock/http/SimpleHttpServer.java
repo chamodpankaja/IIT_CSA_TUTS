@@ -189,7 +189,7 @@ public class SimpleHttpServer {
              * Please get response headers using exchange object and Set the "Content-Type" header to "text/plain".
              * -------------
              */
-            exchange.getRequestHeaders().set("Content-Type", "text/plain");
+            exchange.getResponseHeaders().set("Content-Type", "text/plain");
 
 
             /*
